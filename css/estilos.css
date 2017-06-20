@@ -1,0 +1,42 @@
+		.container{
+			background-color: #fff;
+			color: #000;
+			/*border: solid 1px #000;*/
+
+		}
+
+		ul li{
+			list-style: none;
+		}
+		ul li img{
+			background-size: cover;/*Tamaño de fondo cover para que la imagen se expanda*/
+			border-radius: 6px;/*-botde redondeado de 9px*/
+			float: center;/*Alineamos la imagen al centro*/
+			opacity: .6;/*Opacidad de .6 la imagen no va a estar al 100% si no que se vera opaca*/
+			width: 100px;
+			height: 100px;
+			-webkit-transition:all .6s ease;/*Para que halla transición de un estado a otro con duracion de 6 segundos tipo de transición ease*/
+		}
+		ul li img:hover{
+			opacity: 1;/*Velvemos la opacidad a 1 osea 100%*/
+			border-radius: 100px;/*Borde redondeado*/
+			-webkit-transform:scale(1.25) rotate(360deg);/*Tranformacion de la imagen aumenta la imagen en 1.2 con una rotación de 360 grados*/
+			box-shadow: 0px 0px 20px #0000b3;/*Resplandor azul*/
+		}
+
+		h1{
+			color: #000;
+		}
+
+		.form-group{
+			color: #000;
+		}
+
+		#contenidoContacto{
+			background-color: #809fff;
+			width: 700px;
+			margin: 0 auto;
+			border-radius: 10px;/*-botde redondeado de 9px*/
+			margin-bottom: 20px;
+
+		}
